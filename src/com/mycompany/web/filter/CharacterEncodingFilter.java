@@ -9,7 +9,6 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-import com.sun.net.httpserver.Filter.Chain;
 
 public class CharacterEncodingFilter implements Filter{
 	private String encoding;  //필드 선언
